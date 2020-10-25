@@ -53,29 +53,56 @@ body는 이 hrml을 어떻게 표현할 것인지를 설명하도록 지시하�
 tag는 우리가 웹사이트를 더 명료하고 직관적으로 만들수 있는 기능을 제공한다.
 
 <p><h5><a href ="https://blog.naver.com/hwser2005/221695295876" target ="_blank" title="정확한 기재는 되어있지 않다">태그가 설명되어 있는 블로그</a></h5>
-  
+
 <p><h5><a href ="http://www.w3schools.com/tags/default.asp" target ="_blank" title="정확한 기재는 되어있지만 영문이다">태그가 자세히 기술되어 있는 블로그</a></h5>
 
 앞으로 여기에다가 내가 태그 써보고 하면서 좀 이해를 도와가야 할 것 같다.<br>
 
 알아보고 싶은 것 : <br>
   css -> style, margin top <br>
-  
- 
+
+
   창을 축소/확대 함에 따라 글자가 밑으로 내려가거나 하는데
 창 축소할 필요 없이 그냥 몇 자 이상 되면 아래로 내려가게 못하는지<br>
 --> css에서 가능, 어떤 태그가 필요한지 탐색 요망
-  
+
  그리고 그것도 궁금해 파이썬같은건 문법 틀리면 작동도 안되는데
 html은 /body 이런걸로 마무리 안해줘도 그냥 작동되던데 뭐지 어떨 때 오류나는거지
 
   고쳐야 할 거 하나더
 위에 리스트 1~3은 눌러도 새 웹사이트로 안열리고 그냥 이동했으면 좋겠는데 그렇게 안되네 바꾸자 <br>
- 
+
  --> _self가 기본값으로 되어있기 때문에 원래는 기본창에서 바뀌는게 정상. 내가 어떤 기본값을 건드린걸까? 수정. -> '앵커 태그의 target' 은 정해진 속성값("_blank, _self" 등) 을 넣지 않아서 기본값이 아닌 블랭크로 변경되어 버린듯.
-  
+
 
 <img src="coding.jpg" width="50%">
+
+<p>
+
+<!--댓글기능-disqus-->
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://web1-h170zlka7b.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+ </p>
 
 </body>
 
