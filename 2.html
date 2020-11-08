@@ -3,7 +3,7 @@
 
 <!--본문을 설명하는 부분-->
 <head>
- <title>CSS</title>
+ <title>WEB2-CSS</title>
  <meta charset="utf-8">
 
  <style>
@@ -19,7 +19,7 @@
     text-align:center;
     border-bottom:2px solid gray;
     padding: 50px;
-    margin:0px
+    margin:0px;
 
 
   }
@@ -32,27 +32,26 @@
     padding-top:33px;
 
   }
-  #grid{
+  #Contents{
     display: grid;
     grid-template-columns:150px 1fr;
   }
 
-  #grid #article{
+  #Contents #article{
     padding:25px;
   }
 
-  #one{
+  #article2{
     margin-top : 0px;
   }
 
   @media(max-width:850px){
-
-      #grid{
+      #Contents{
         display: block;
         grid-template-columns:150px 1fr;
         }
 
-      #grid ol{
+      #Contents ol{
         border-right:none;
         }
 
@@ -72,7 +71,7 @@
 
   <h1><a href="index.html" target ="WEB">WEB</a></h1>
 
-  <div id="grid">
+  <div id="Contents">
     <ol>
       <li><a href="1.html" > html</a></li>
       <li><a href="2.html" > css</a></li>
@@ -91,7 +90,7 @@
       자 그렇다면 css란 무엇일까?
       </p>
 
-      <h2 id="one">css</h2>
+      <h2 id="article2">css</h2>
       우리가 만드는 이 언어는 분명 html이다
       그래서 우리는 css를 이용한다고 html의 언어로 먼저 통지해줘야 한다
 
